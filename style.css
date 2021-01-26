@@ -102,12 +102,7 @@ h3{
 
 
 
-@media only screen and (max-width: 600px) {
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-    }
-}
+
 
 .social{
     padding: 1%;
@@ -155,4 +150,30 @@ h3{
 
 
 
+
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+h1{
+    font-size: 5vw;
+	font-weight:bold;
+	font-style: normal;
+    text-align: center;
+    
+}
+
+h3{
+    font-size: 3vw;
+	font-weight: lighter;
+	font-style: italic;
+    text-align: center;
+    color: #707070;
+    
+    
+}
+}
 
